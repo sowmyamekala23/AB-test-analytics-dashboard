@@ -1,0 +1,67 @@
+notebooks/..
+# -----------------------
+# OS / Editor junk
+# -----------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+
+# -----------------------
+# Python cache / build
+# -----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+dist/
+build/
+
+# -----------------------
+# Virtual environments
+# -----------------------
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# -----------------------
+# Jupyter Notebook junk
+# -----------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Explicitly block ghost folders
+notebooks/..
+scripts/..
+dashboard/..
+
+# -----------------------
+# IDE settings
+# -----------------------
+.vscode/
+.idea/
+
+# -----------------------
+# Data files (large, private, or generated)
+# -----------------------
+data/
+*.db
+*.sqlite
+*.parquet
+*.h5
+*.csv
+*.tsv
+
+# -----------------------
+# Streamlit
+# -----------------------
+.streamlit/
+
+# -----------------------
+# Miscellaneous
+# -----------------------
+*.bak

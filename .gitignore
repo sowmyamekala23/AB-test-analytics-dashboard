@@ -18,16 +18,14 @@ ENV/
 *.env
 
 # Jupyter Notebook checkpoints
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
 # VSCode / PyCharm
 .vscode/
 .idea/
 
-# Data folder (large or private datasets)
+# Data folder (excluded to avoid large files)
 data/
-*.db
-*.sqlite
 
 # Streamlit
 .streamlit/

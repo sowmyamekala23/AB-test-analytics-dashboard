@@ -1,34 +1,61 @@
-# OS / Editor files
+# -----------------------
+# OS / Editor junk
+# -----------------------
 .DS_Store
 Thumbs.db
 *.swp
 *.swo
 *.log
 
-# Python cache
+# -----------------------
+# Python cache / build
+# -----------------------
 __pycache__/
 *.py[cod]
 *$py.class
+*.egg
+*.egg-info/
+dist/
+build/
 
+# -----------------------
 # Virtual environments
+# -----------------------
 .venv/
 venv/
 env/
 ENV/
 *.env
 
-# Jupyter Notebook checkpoints
+# -----------------------
+# Jupyter Notebook
+# -----------------------
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/
 
-# VSCode / PyCharm
+# -----------------------
+# IDE settings
+# -----------------------
 .vscode/
 .idea/
 
-# Data folder (excluded to avoid large files)
+# -----------------------
+# Data files (keep repo light)
+# -----------------------
 data/
+*.db
+*.sqlite
+*.parquet
+*.h5
+*.csv
+*.tsv
 
+# -----------------------
 # Streamlit
+# -----------------------
 .streamlit/
 
-# Misc
+# -----------------------
+# Miscellaneous
+# -----------------------
 *.bak
